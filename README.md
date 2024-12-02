@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/cowdey/tesisusfq.git">
-    <img src="images/credit_score_logo.png" alt="Credit Score" height="250">
+    <img src="https://st4.depositphotos.com/1202020/24414/i/450/depositphotos_244147376-stock-photo-illustration-conceptual-gauge-needle-pointing.jpg" alt="Credit Score" height="250">
   </a>
 
   <h3 align="center">Comparative Evaluation of Machine Learning Models for Credit Score Prediction</h3>
@@ -30,6 +30,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#key-findings">Key Findings</a></li>
+    <li><a href="#repository-structure">Repository Structure</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -71,22 +73,40 @@ To get a local copy up and running, follow these steps.
    git clone https://github.com/cowdey/tesisusfq.git
 
 2. Navigate to the project directory:   
+   ```sh
    cd tesisusfq
    
 3. Create and activate a virtual environment (optional but recommended):
+   ```sh
    python -m venv env
    source env/bin/activate  # Linux/Mac
    env\Scripts\activate     # Windows
-   
-4. Install the required packages:
-   pip install -r requirements.txt
 
 ### Usage
 1. Open EDA.ipynb to explore the data analysis process, including data cleaning, visualization, and correlation analysis.
 2. Open Models.ipynb to review the machine learning pipeline implementation, model training, and evaluation.
 
-<p align="center"> <a href="https://github.com/cowdey/tesisusfq.git"> <img src="images/pipeline_diagram.png" alt="Pipeline Diagram" height="250"> </a> </p>
+### Key Findings
+- Top Models:
+  - Regression: Random Forest Regressor (R² = 0.94).
+  - Classification: Gaussian Naive Bayes and Linear Discriminant Analysis with balanced metrics.  
+- Impact: This approach enables resource-constrained institutions to perform reliable creditworthiness assessments using their internal data.
 
+<img src="results1.png" alt="Descripción de la Imagen" width="1000" />
+
+<img src="results2.png" alt="Descripción de la Imagen" width="1000" />
+
+### Repository Structure
+
+### Exploratory Data Analysis (EDA.ipynb)
+- Initial data cleaning and visualization.
+- Exploratory analysis to understand correlations between variables.
+- Identification of outliers and class balancing.
+
+### Model Training and Evaluation (Models.ipynb)
+- Implementation of the machine learning pipeline.
+- Training and evaluation of the models.
+- Comparison of metrics to select the best approaches.
 
 ### Contact
 Ángel David Llerena Camacho - dllerena@estud.usfq.edu.ec
@@ -96,5 +116,6 @@ Project Link: https://github.com/cowdey/tesisusfq.git
 ### Acknowledgements
 
 Universidad San Francisco de Quito (USFQ)
+
 CACPECO for providing the datasets used in this project
 
