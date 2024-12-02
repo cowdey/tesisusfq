@@ -1,7 +1,7 @@
 #tesisusfq
 <br />
 <p align="center">
-  <a href="https://github.com/tu-usuario/tu-repositorio">
+  <a href="https://github.com/cowdey/tesisusfq.git">
     <img src="images/credit_score_logo.png" alt="Credit Score" height="250">
   </a>
 
@@ -10,13 +10,12 @@
   <p align="center">
     Master's degree thesis project in Data Science at Universidad San Francisco de Quito (USFQ)
     <br />
-    <a href="https://github.com/tu-usuario/tu-repositorio/issues">Report Bug</a>
+    <a href="https://github.com/cowdey/tesisusfq.git/issues">Report Bug</a>
     ·
-    <a href="https://github.com/tu-usuario/tu-repositorio/issues">Request Feature</a>
+    <a href="https://github.com/cowdey/tesisusfq.git/issues">Request Feature</a>
   </p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
@@ -72,4 +71,33 @@ To get a local copy up and running, follow these steps.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/cowdey/tesisusfq.git
+
+2. Navigate to the project directory:   
+   cd tesisusfq
+   
+3. Create and activate a virtual environment (optional but recommended):
+   python -m venv env
+   source env/bin/activate  # Linux/Mac
+   env\Scripts\activate     # Windows
+   
+4. Install the required packages:
+   pip install -r requirements.txt
+
+### Usage
+1. Open EDA.ipynb to explore the data analysis process, including data cleaning, visualization, and correlation analysis.
+2. Open Models.ipynb to review the machine learning pipeline implementation, model training, and evaluation.
+
+<p align="center"> <a href="https://github.com/cowdey/tesisusfq.git"> <img src="images/pipeline_diagram.png" alt="Pipeline Diagram" height="250"> </a> </p>
+
+
+### Contact
+Ángel David Llerena Camacho - dllerena@estud.usfq.edu.ec
+
+Project Link: https://github.com/cowdey/tesisusfq.git
+
+### Acknowledgements
+
+Universidad San Francisco de Quito (USFQ)
+CACPECO for providing the datasets used in this project
+
