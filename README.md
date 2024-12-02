@@ -9,10 +9,7 @@
 
   <p align="center">
     Master's degree thesis project in Data Science at Universidad San Francisco de Quito (USFQ)
-    <br />
-    <a href="https://github.com/cowdey/tesisusfq.git/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/cowdey/tesisusfq.git/issues">Request Feature</a>
+    <br />    
   </p>
 </p>
 
