@@ -87,8 +87,24 @@ To get a local copy up and running, follow these steps.
 2. Open Models.ipynb to review the machine learning pipeline implementation, model training, and evaluation.
 
 ### Key Findings
+- Dataset: The most important variables of the CACPECO dataset are detailed below:
+  - ACTIVOSTOTALES: It reflects the financial capacity of the borrower.
+  - PASIVOSTOTALES: Indicates the level of total debt.
+  - INGRESOSANUALES: Indicates the level of total debt.
+  - EGRESOSANUALES: Helps to evaluate the income-expense relationship.
+  - CARGASFAMILIARES: It impacts the available payment capacity.
+  - EDAD: It can influence financial stability and credit experience.
+  - AHORROS: Indicates the ability to save and financial support.
+  - DEUDASVIGENTES: Shows the current level of financial obligations.
+  - CUOTASTOTALESVIGENTES: Reflects the monthly payment burden.
+  - NUMPRESTVIGENTES: Indicates the number of active loans.
+  - MONTOPRESTAMO: The amount requested may influence the perceived risk.
+  - SALDOPRESTAMO: Displays the outstanding balance, relevant to assess risk.
+  - TASAINTERES: Higher rates may be associated with higher risk.
+  - DIASMOROSIDAD: Previous history of default is a key risk indicator.
+  - ANIOSTRABAJO: Job stability can influence the ability to pay.
 - Top Models:
-  - Regression: Random Forest Regressor (R² = 0.94).
+  - Regression: Random Forest Regressor.
   - Classification: Gaussian Naive Bayes and Linear Discriminant Analysis with balanced metrics.  
 - Impact: This approach enables resource-constrained institutions to perform reliable creditworthiness assessments using their internal data.
 
